@@ -80,7 +80,7 @@ int main(int argc,char** argv)
   ForceUG=0;  /* to Force Unitary Gauge assign 1 */
   //useSLHAwidth=0;
   
-  n=sprintf(buffer,"IDM_CTA_10.PhaseSpace_continuous2");
+  n=sprintf(buffer,"IDM_continuous");
   FILE* Sigma = fopen(buffer,"w");
   
   fprintf(Sigma,"Lambda345 MDM d0 d+ Omega \n");
